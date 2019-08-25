@@ -1,0 +1,59 @@
+// Global Config
+
+// Font stacks
+$font-url--google        : "https://fonts.googleapis.com/css?family=Roboto:700,400,300|Lato:700,400";
+$font-family--primary    : "Roboto", sans-serif;
+$font-family--secondary  : "Lato", sans-serif;
+
+// Font weights
+$font-weight--thin		: 300;
+$font-weight--medium	: 400;
+$font-weight--bold		: 700;
+
+// Descriptive base colors
+$white         : #fff;
+$alto          : #D9D9D9;
+$mine-shaft    : #262626;
+$golden-dream  : #f2e635;
+
+// Color usage
+$color-primary   : $mine-shaft;
+$color-shadow    : rgba($mine-shaft, .4);
+
+// Color palette modifiers
+$color-palettes: (
+  iron: (
+  xx-light : lighten($mine-shaft, 43%),
+  x-light  : lighten($mine-shaft, 35%),
+  light    : lighten($mine-shaft, 12%),
+  base     : $mine-shaft,
+  dark     : darken($mine-shaft, 8%),
+  x-dark   : darken($mine-shaft, 16%)
+  )
+);
+
+// Text
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+// Border radius
+$br--default    : .4em;
+$br--round      : 50%;
+
+// Transitions
+$trns-duration  : .3s;
+
+// Path to assets
+$path-images    : "../../../img";
+
+// Grid
+$g-col-width    : 65px;
+$g-gutter-width : 20px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1050px;
+
+// Breakpoints
+$brkpoint-sm    : 320px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1920px;

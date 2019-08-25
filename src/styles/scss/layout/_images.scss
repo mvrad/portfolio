@@ -1,0 +1,31 @@
+// Images
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.main-title img {
+  width: 20%;
+  height: auto;
+  margin-right: 5%;
+}
+
+// Social
+
+.social {
+  width: 0;
+}
+
+.social a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.icon {
+  fill: $alto;
+  &:hover {
+    fill: $golden-dream;
+    transition: 0.3s;
+  }
+}

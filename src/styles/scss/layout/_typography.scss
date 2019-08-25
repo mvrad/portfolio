@@ -1,0 +1,35 @@
+// Typography
+
+.sidebar {
+    font-family: $font-family--primary;
+  & h1 {
+    font-weight: 400;
+  }
+  & a {
+    color: $alto;
+    font-size: 1.1vw;
+    font-weight: 400;
+  }
+}
+
+.sidebar a:hover {
+  color: $golden-dream;
+  transition: 0.3s;
+}
+
+.main-title {
+  & h1 {
+    color: $alto;
+    font-size: 1.4vw;
+  }
+}
+
+.welcome {
+  font-family: $font-family--secondary;
+  & h1 {
+    @extend %flex-center-row;
+    color: $mine-shaft;
+    font-size: 5vw;
+    font-weight: 800;
+  }
+}

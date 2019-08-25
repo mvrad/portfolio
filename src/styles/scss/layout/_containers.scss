@@ -1,0 +1,45 @@
+// Containers
+
+.App {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+  "sidebar main";
+}
+
+// Sidebar
+
+.sidebar {
+  height: 100vh;
+  background: $mine-shaft;
+  padding: 20%;
+}
+
+.sidebar-header {
+  @extend %flex-center-col-left;
+}
+
+.main-title {
+  @extend %flex-center-row-left;
+  width: 100%;
+}
+
+.sidebar-nav {
+  @extend %flex-center-col-left;
+  margin: 20% 0;
+  & a {
+    padding-bottom: 10%;
+  }
+}
+
+.social {
+  @extend %flex-center-row-left;
+  max-height: 50px;
+}
+
+// Welcome
+
+.welcome {
+  @extend %flex-center-row;
+}
