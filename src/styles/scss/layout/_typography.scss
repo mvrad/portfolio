@@ -7,7 +7,7 @@
   }
   & a {
     color: $alto;
-    font-size: 1.1vw;
+    font-size: 1em;
     font-weight: 400;
   }
 }
@@ -20,16 +20,39 @@
 .main-title {
   & h1 {
     color: $alto;
-    font-size: 1.4vw;
+    font-size: 1vw;
   }
 }
 
-.welcome {
+.welcome, .skills, .portfolio, .btn {
   font-family: $font-family--secondary;
+}
+
+.skills, .portfolio {
+  line-height: 1.5;
+}
+
+.welcome {
   & h1 {
     @extend %flex-center-row;
     color: $mine-shaft;
     font-size: 5vw;
-    font-weight: 800;
+    font-weight: 700;
+  }
+}
+
+.skills, .portfolio {
+  color: $mine-shaft;
+  & h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  & h2 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  & p {
+    font-size: 1.15em;
+    font-weight: 400;
   }
 }

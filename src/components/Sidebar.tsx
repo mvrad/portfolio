@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface SidebarProps { }
 
-const Sidebar: React.SFC<SidebarProps> = (props) => {
+const Sidebar: React.FC<SidebarProps> = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
@@ -19,16 +19,16 @@ const Sidebar: React.SFC<SidebarProps> = (props) => {
         <a href="/">
           Welcome
         </a>
-        <a href="/">
+        <a href="/skills">
           Skills
         </a>
-        <a href="/">
+        <a href="/portfolio">
           Portfolio
         </a>
-        <a href="/">
+        <a href="https://drive.google.com/open?id=1hou8WFChR2Ko7-z8MAnedAPQWnUAfhpA" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
-        <a href="/">
+        <a href="https://blog.mconrad.me" target="_blank" rel="noopener noreferrer">
           Blog
         </a>
       </div>
