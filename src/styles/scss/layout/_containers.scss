@@ -1,14 +1,59 @@
 // Containers
 
+.mobile-nav, .sidebar {
+  background: $mine-shaft;
+}
+
+.mobile-nav-header {
+  @extend %flex-center-col-left;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.mobile-nav-main-title {
+  @extend %flex-center-row;
+  width: 100%;
+}
+
+.mobile-nav-nav {
+  @extend %flex-center-col;
+  max-width: 320px;
+  margin: 80px auto;
+  & a {
+    padding-bottom: 5%;
+  }
+}
+
+.mobile-nav-social {
+  @extend %flex-center-row;
+  max-height: 50px;
+  margin: 0 auto;
+}
+
+// Mobile Nav
+
+.mobile-nav {
+  display: block;
+  @include mq(medium) {
+    display: none;
+  }
+  height: auto;
+  width: 100%;
+  padding: 5% 0;
+}
+
 // Sidebar
 
 .sidebar {
+  display: none;
+  @include mq(medium) {
+    display: block;
+  }
   position: fixed;
   overflow: hidden;
   height: 100vh;
   width: 20%;
-  background: $mine-shaft;
-  padding: 5%;
+  padding: 3%;
 }
 
 .sidebar-header {
@@ -44,38 +89,58 @@
 }
 
 .welcome, .skills, .portfolio {
-  margin-left: 20%;
+  @include mq(medium) {
+    margin-left: 20%;
+  }
 }
 
 .skills, .portfolio {
   padding: 10% 15%;
 }
 
+.skills-title, .portfolio-title {
+  max-width: 864px;
+  margin: 0 auto 80px;
+  & h1 {
+    margin: 0;
+    border-bottom: 2px solid $mine-shaft;
+  }
+}
+
 // Skills
 
 .skills-sub {
-  border-bottom: 2px solid $mine-shaft;
   max-width: 864px;
-  margin-bottom: 80px;
-  & p {
-    margin: 20px 0;
-  }
+  margin: 0 auto;
   &:first-child p {
     margin-top: 60px;
   }
 }
 
+.skills-p {
+  border-top: 2px solid $mine-shaft;
+  max-width: 864px;
+  padding-top: 20px;
+  margin: 0 auto 80px;
+}
+
 .skills-sub_title {
   @extend %flex-center-row-left;
   align-items: flex-end;
-  & h1 {
+  padding-bottom: 20px;
+  & h1:first-child {
+    border-bottom: 2px solid $mine-shaft;
+    width: 100%;
     margin: 0;
   }
   & svg {
     width: 48px;
   }
   & h2 {
-    margin: 0 0 0 10px;
+    margin: 0;
+    @include mq(small) {
+      margin-left: 10px;
+    }
     height: 39px;
   }
 }
@@ -88,17 +153,22 @@
   }
 }
 
+.portfolio-sub {
+  max-width: 864px;
+}
+
 .portfolio-sub:first-child {
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 .portfolio-sub:not(:first-child) {
-  margin-bottom: 160px;
+  margin: 0 auto 160px;
 }
 
 .portfolio-sub_title {
   @extend %flex-center-col-left;
   & h1 {
+    width: 100%;
     margin: 0;
   }
 }

@@ -1,27 +1,39 @@
 // Typography
 
-.sidebar {
+.mobile-nav, .sidebar {
     font-family: $font-family--primary;
   & h1 {
     font-weight: 400;
   }
   & a {
     color: $alto;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 400;
+    @include mq(medium) {
+      font-size: 1.1em;
+    }
   }
 }
 
-.sidebar a:hover {
+.sidebar a:hover,
+.mobile-nav a:hover {
   color: $golden-dream;
   transition: 0.3s;
 }
 
+.mobile-nav-main-title,
 .main-title {
   & h1 {
     color: $alto;
-    font-size: 1vw;
   }
+}
+
+.mobile-nav-main-title h1 {
+  font-size: 1.8em;
+}
+
+.main-title h1 {
+  font-size: 1.4vw;
 }
 
 .welcome, .skills, .portfolio, .btn {
@@ -46,9 +58,13 @@
   & h1 {
     font-size: 3em;
     font-weight: 700;
+    padding-bottom: 20px;
   }
   & h2 {
-    font-size: 2em;
+    font-size: 6vw;
+    @include mq(small) {
+      font-size: 2em;
+    }
     font-weight: 700;
   }
   & p {

@@ -5,10 +5,8 @@ export interface skillsProps { }
 const skills: React.SFC<skillsProps> = () => {
   return (
     <div className="skills">
-      <div className="skills-sub">
-        <div className="skills-sub_title">
-          <h1>Skills</h1>
-        </div>
+      <div className="skills-title">
+        <h1>Skills</h1>
         <p>
           I develop website designs into HTML, CSS, and JavaScript. I also work with databases and APIs in creating web applications.
         </p>
@@ -23,10 +21,10 @@ const skills: React.SFC<skillsProps> = () => {
           </svg>
           <h2>Front End Development</h2>
         </div>
-        <p>
-          I develop website designs using responsive design techniques, and develop for the front end in libraries like React.
-        </p>
       </div>
+      <p className="skills-p">
+        I develop website designs using responsive design techniques, and develop for the front end in libraries like React.
+      </p>
       <div className="skills-sub">
         <div className="skills-sub_title">
           <svg className="skills-icon" height="48px">
@@ -36,10 +34,10 @@ const skills: React.SFC<skillsProps> = () => {
           </svg>
           <h2>Back End Development</h2>
         </div>
-        <p>
-          I like to program the back end of web applications in either the Node.js framework Express, the PHP framework Laravel, or the Python framework Django.
-        </p>
       </div>
+      <p className="skills-p">
+        I like to program the back end of web applications in either the Node.js framework Express, the PHP framework Laravel, or the Python framework Django.
+      </p>
       <div className="skills-sub">
         <div className="skills-sub_title">
           <svg className="skills-icon" height="52px">
@@ -48,10 +46,10 @@ const skills: React.SFC<skillsProps> = () => {
           </svg>
           <h2>Development Tools</h2>
         </div>
-        <p>
-          Other tools that I use include Adobe XD for wireframing, Git and GitHub for version control, Gulp.js, and Webpack.
-        </p>
       </div>
+      <p className="skills-p">
+        Other tools that I use include Adobe XD for wireframing, Git and GitHub for version control, Gulp.js, and Webpack.
+      </p>
     </div>
   );
 }

@@ -5,10 +5,8 @@ export interface portfolioProps { }
 const portfolio: React.SFC<portfolioProps> = () => {
   return (
     <div className="portfolio">
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h1>Portfolio</h1>
-        </div>
+      <div className="portfolio-title">
+        <h1>Portfolio</h1>
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">

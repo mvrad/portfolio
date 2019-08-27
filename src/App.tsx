@@ -5,10 +5,12 @@ import Sidebar from './components/Sidebar';
 import Welcome from './components/Welcome';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import MobileNav from './components/MobileNav';
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <MobileNav />
       <Sidebar />
       <BrowserRouter>
         <Switch>

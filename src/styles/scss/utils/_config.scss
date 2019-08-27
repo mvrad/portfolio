@@ -44,9 +44,6 @@ $br--round      : 50%;
 // Transitions
 $trns-duration  : .3s;
 
-// Path to assets
-$path-images    : "../../../img";
-
 // Grid
 $g-col-width    : 65px;
 $g-gutter-width : 20px;
@@ -54,6 +51,6 @@ $g-col-count    : 12;
 $g-cont-max-w   : 1050px;
 
 // Breakpoints
-$brkpoint-sm    : 320px;
-$brkpoint-md    : 768px;
+$brkpoint-sm    : 560px;
+$brkpoint-md    : 1024px;
 $brkpoint-lg    : 1920px;

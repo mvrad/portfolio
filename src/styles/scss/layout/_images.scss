@@ -1,5 +1,22 @@
 // Images
 
+// Mobile
+
+.mobile-nav-profile-img {
+  width: 260px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.mobile-nav-main-title img {
+  width: 60px;
+  height: auto;
+  margin-right: 2%;
+}
+
+// Desktop
+
 .profile-img {
   width: 100%;
   height: auto;
@@ -14,10 +31,11 @@
 
 // Social
 
-.social {
+.mobile-nav-social, .social {
   width: 0;
 }
 
+.mobile-nav-social a:not(:first-child),
 .social a:not(:first-child) {
   margin-left: 10px;
 }
@@ -33,5 +51,17 @@
 // Skills
 
 .skills-icon {
+  display: none;
+  @include mq(small) {
+    display: block;
+  }
   fill: $mine-shaft;
+}
+
+// Portfolio
+
+.portfolio img {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
 }
