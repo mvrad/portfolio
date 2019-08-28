@@ -38,6 +38,18 @@
 
 .welcome, .skills, .portfolio, .btn {
   font-family: $font-family--secondary;
+  & h1 {
+    font-family: $font-family--secondary;
+  }
+  & h2 {
+    font-family: $font-family--secondary;
+  }
+  & p {
+    font-family: $font-family--secondary;
+  }
+  & btn {
+    font-family: $font-family--secondary;
+  }
 }
 
 .skills, .portfolio {
