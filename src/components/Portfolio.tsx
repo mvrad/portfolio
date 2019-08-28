@@ -68,7 +68,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             A landing page design for a fictional artificial intelligence/machine learning company I dubbed "Alpha.ai". Images courtesy of Adobe Stock. Mockup created in Adobe XD.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="/alpha" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="/alpha"><button className="btn" type="button">View</button></a>
           </div>
         </div>
       </div>
