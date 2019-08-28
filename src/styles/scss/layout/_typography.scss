@@ -48,8 +48,14 @@
   & h1 {
     @extend %flex-center-row;
     color: $mine-shaft;
-    font-size: 5vw;
+    font-size: 2em;
     font-weight: 700;
+    @include mq(small) {
+      font-size: 3em;
+    }
+    @include mq(medium) {
+      font-size: 6vw;
+    }
   }
 }
 

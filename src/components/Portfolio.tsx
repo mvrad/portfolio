@@ -16,7 +16,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             Created using the PHP framework Laravel, "TravelStar" is a small, lightweight web application hosted on Heroku that prompts a user to search the Sygic Travel third-party API for a list of top ten tourist attractions such as landmarks, top tourist activities such as bus tours, photos of the location taken by tourists, and various dining options in the area.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://travelstar.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://travelstar.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/travelstar" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
@@ -29,8 +29,8 @@ const portfolio: React.SFC<portfolioProps> = () => {
             Created with the traditional web stack of HTML, CSS, and JavaScript, this is the official site of performer and instructor Kelly Conrad.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://www.kjconrad.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
-            <a href="https://github.com/mvrad/performer" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+            <a href="https://www.kjconrad.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/performer-site" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             Bootstrapped with Create React App and styled using Material-UI, Blot is a simple, easy-to-use note taking app that allows a user to create and save notes and lists.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://blotapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/blot" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
@@ -55,7 +55,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             Created using the Node.js framework Express, "Wino" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account and then search the Snooth.com API for wine, edit wine bottle information, and add information to a collection.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://winoapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://winoapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/wino" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
@@ -68,7 +68,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             A landing page design for a fictional artificial intelligence/machine learning company I dubbed "Alpha.ai". Images courtesy of Adobe Stock. Mockup created in Adobe XD.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="/" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="/alpha" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
           </div>
         </div>
       </div>
