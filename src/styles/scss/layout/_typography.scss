@@ -5,13 +5,18 @@
   & h1 {
     font-weight: 400;
   }
-  & a {
-    color: $alto;
-    font-size: 1.4em;
+  & a, p {
+    font-size: 1.1em;
     font-weight: 400;
     @include mq(medium) {
-      font-size: 1.1em;
+      font-size: 1em;
     }
+  }
+  & a {
+    color: $alto;
+  }
+  & p {
+    color: $golden-dream;
   }
 }
 
@@ -33,7 +38,7 @@
 }
 
 .main-title h1 {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .welcome, .skills, .portfolio, .btn {
@@ -77,16 +82,20 @@
     font-size: 3em;
     font-weight: 700;
     padding-bottom: 20px;
+    text-align: center;
+    @include mq(medium) {
+      text-align: left;
+    }
   }
   & h2 {
-    font-size: 6vw;
+    font-size: 1.3em;
     @include mq(small) {
-      font-size: 2em;
+      font-size: 1.6em;
     }
     font-weight: 700;
   }
   & p {
-    font-size: 1.15em;
+    font-size: 1em;
     font-weight: 400;
   }
 }

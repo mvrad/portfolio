@@ -6,7 +6,9 @@ const Sidebar: React.FC<SidebarProps> = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <img className="profile-img" src="img/me.jpg" alt="Matt Conrad | Web Developer"/>
+        <div>
+          <img className="profile-img" src="img/me.jpg" alt="Matt Conrad | Web Developer"/>
+        </div>
         <div className="main-title">
           <img src="img/my-logo.svg" alt="Logo"/>
           <h1>Matthew Conrad
@@ -60,6 +62,12 @@ const Sidebar: React.FC<SidebarProps> = () => {
             c0.7,0,1.2-0.2,1.8-0.5C23.7,12.2,23.2,12.7,22.5,13.2z"/>
           </svg>
         </a>
+      </div>
+      <div className="copyright">
+        <div className="null"></div>
+        <p>
+        &#169; 2019. Made with {'\u2764'}
+        </p>
       </div>
     </div>
   );

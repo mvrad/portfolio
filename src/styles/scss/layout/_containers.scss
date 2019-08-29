@@ -78,12 +78,25 @@
   max-height: 50px;
 }
 
+.copyright {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 600px);
+  & .null {
+    flex: 1 0 auto;
+  }
+  & p {
+    flex-shrink: 0;
+    margin: 0;
+  }
+}
+
 // Welcome
 
 .welcome {
   background: url(../../../components/img/seattle.jpg) no-repeat center/cover;
   background-color: $olive;
-  background-blend-mode: screen;
+  background-blend-mode: color-dodge;
   @extend %flex-center-row;
   height: 100vh;
   & h1 {
@@ -113,7 +126,7 @@
 // Skills
 
 .skills {
-  background: url(../../../components/img/computer.jpg) no-repeat center;
+  background: url(../../../components/img/computer.jpg) no-repeat center/cover;
 }
 
 .skills-sub {
@@ -181,6 +194,7 @@
 }
 
 .portfolio-btn_wrapper {
+  padding-top: 10px;
   margin: 0 auto;
 }
 
