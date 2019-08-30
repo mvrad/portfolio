@@ -30,7 +30,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
         <a href="https://drive.google.com/open?id=1hou8WFChR2Ko7-z8MAnedAPQWnUAfhpA" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
-        <a href="https://blog.mconrad.me" target="_blank" rel="noopener noreferrer">
+        <a href="https://mconradblog.herokuapp.com" target="_blank" rel="noopener noreferrer">
           Blog
         </a>
       </div>
