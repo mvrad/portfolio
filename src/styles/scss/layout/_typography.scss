@@ -99,3 +99,9 @@
     font-weight: 400;
   }
 }
+
+.skills h2 {
+  @include mq(medium) {
+    font-size: 2em;
+  }
+}
