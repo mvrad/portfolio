@@ -25,7 +25,7 @@ const MobileNav: React.SFC<MobileNavProps> = (props) => {
         <a href="/portfolio">
           Portfolio
         </a>
-        <a href="https://drive.google.com/open?id=1TpWy7G1nRxUONS-0ImFbD0UtFmegU-bb" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/open?id=1ZwLZ4V891PMl4uaHrxhH6DdPLQ7eismK" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
         <a href="https://mconradblog.herokuapp.com" target="_blank" rel="noopener noreferrer">
