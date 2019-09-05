@@ -98,6 +98,18 @@ const portfolio: React.SFC<portfolioProps> = () => {
           </div>
         </div>
       </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <img src="img/thinkspace.png" alt="Thinkspace Landing Page"/>
+          <h2>Landing Page Design | Thinkspace</h2>
+          <p>
+            A landing page design for a fictional digital marketing company I dubbed "Thinkspace". Images courtesy of Adobe Stock. Mockup created in Adobe XD.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="/thinkspace"><button className="btn" type="button">View</button></a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Welcome from './components/Welcome';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import AlphaAI from './components/AlphaAI';
+import Thinkspace from './components/Thinkspace';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/alpha" component={AlphaAI} />
+          <Route exact path="/thinkspace" component={Thinkspace} />
         </Switch>
       </BrowserRouter>
     </div>
