@@ -10,7 +10,6 @@ const Sidebar: React.FC<SidebarProps> = () => {
           <img className="profile-img" src="img/me.jpg" alt="Matt Conrad | Web Developer"/>
         </div>
         <div className="main-title">
-          <img src="img/my-logo.svg" alt="Logo"/>
           <h1>Matthew Conrad
             <br/>
             Web Developer

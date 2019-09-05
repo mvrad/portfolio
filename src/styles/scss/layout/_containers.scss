@@ -26,7 +26,6 @@
 
 .mobile-nav-social {
   @extend %flex-center-row;
-  max-height: 50px;
   margin: 0 auto;
 }
 
@@ -57,31 +56,42 @@
 }
 
 .sidebar-header {
-  @extend %flex-center-col-left;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $alto;
+  padding-bottom: 30px;
 }
 
 .main-title {
-  @extend %flex-center-row-left;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .sidebar-nav {
   @extend %flex-center-col-left;
-  margin: 20% 0;
-  & a {
-    padding-bottom: 10%;
+  max-width: 70px;
+  margin: 40px auto;
+  & a:not(:last-child) {
+    padding-bottom: 20px;
   }
 }
 
 .social {
-  @extend %flex-center-row-left;
-  max-height: 50px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $alto;
+  width: auto;
+  height: auto;
+  padding-top: 40px;
+  margin: 0 auto;
 }
 
 .copyright {
   display: flex;
-  flex-direction: column;
-  height: calc(100vh - 600px);
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 40px;
   & .null {
     flex: 1 0 auto;
   }

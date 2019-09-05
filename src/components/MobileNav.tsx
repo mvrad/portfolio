@@ -8,7 +8,6 @@ const MobileNav: React.SFC<MobileNavProps> = (props) => {
       <div className="mobile-nav-header">
         <img className="mobile-nav-profile-img" src="img/me.jpg" alt="Matt Conrad | Web Developer"/>
         <div className="mobile-nav-main-title">
-          <img src="img/my-logo.svg" alt="Logo"/>
           <h1>Matthew Conrad
             <br/>
             Web Developer
