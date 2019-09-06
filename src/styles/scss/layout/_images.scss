@@ -1,10 +1,5 @@
 // Images
 
-.mobile-nav-profile-img,
-.profile-img {
-  border: 5px solid $golden-dream;
-}
-
 // Mobile
 
 .mobile-nav-profile-img {
@@ -41,12 +36,21 @@
   margin-left: 10px;
 }
 
-.icon {
+.nav-link,
+.social a {
   fill: $alto;
-  &:hover {
+  & :hover {
     fill: $golden-dream;
-    transition: 0.3s;
   }
+}
+
+.sidebar-nav_link:hover a {
+  color: $golden-dream;
+  transition: 0.3s;
+}
+.sidebar-nav_link:hover svg {
+  fill: $golden-dream;
+  transition: 0.3s;
 }
 
 // Skills
@@ -65,4 +69,16 @@
   width: 600px;
   height: auto;
   margin: 0 auto;
+}
+
+.github, .linkedin, .twitter {
+  width: 30px;
+  height: auto;
+}
+
+.coffee {
+  fill: $golden-dream;
+  width: 21px;
+  height: auto;
+  margin: 0 0 6px 5px;
 }

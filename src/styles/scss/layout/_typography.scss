@@ -6,10 +6,10 @@
     font-weight: 400;
   }
   & a, p {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 400;
     @include mq(medium) {
-      font-size: 1em;
+      font-size: 1.1em;
     }
   }
   & a {
@@ -17,6 +17,7 @@
   }
   & p {
     color: $golden-dream;
+    margin: 0 auto;
   }
 }
 
@@ -29,17 +30,8 @@
 .mobile-nav-main-title,
 .main-title {
   & h1 {
-    color: $alto;
+    color: $golden-dream;
   }
-}
-
-.mobile-nav-main-title h1 {
-  font-size: 1.8em;
-}
-
-.main-title h1 {
-  font-size: 1.2em;
-  margin: 20px 0 0 0;
 }
 
 .welcome, .skills, .portfolio, .btn {
