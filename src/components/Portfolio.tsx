@@ -75,19 +75,6 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <img src="img/display-architect.png" alt="Anderson-Gage Architects"/>
-          <h2>Architecture Firm</h2>
-          <p>
-            A site for a fictional architecture firm. Created with the traditional web stack of HTML, CSS, and JavaScript.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://mvrad.github.io/anderson-gage" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/anderson-gage" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <img src="img/alpha.png" alt="Alpha.ai Landing Page"/>
           <h2>Landing Page Design | Alpha.ai</h2>
           <p>

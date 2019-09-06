@@ -6,11 +6,7 @@
     font-weight: 400;
   }
   & a, p {
-    font-size: 1.3em;
     font-weight: 400;
-    @include mq(medium) {
-      font-size: 1.1em;
-    }
   }
   & a {
     color: $alto;
@@ -19,6 +15,18 @@
     color: $golden-dream;
     margin: 0 auto;
   }
+}
+
+.mobile-nav, .sidebar-nav {
+  & a {
+    font-size: 1.3em;
+    @include mq(medium) {
+    font-size: 1.1em
+    }
+  }
+}
+.copyright p {
+  font-size: 1em;
 }
 
 .sidebar a:hover,
