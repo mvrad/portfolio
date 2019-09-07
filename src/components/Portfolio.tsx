@@ -49,6 +49,19 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
+          <img src="img/display-podbay.png" alt="Podbay | Search Podcasts"/>
+          <h2>Podbay</h2>
+          <p>
+            Build in the Node.js Express framework, "Podbay" allows a user to search hundreds of different podcasts with the Listen API. "Podbay" uses the Pug HTML templating engine and the Sass CSS preprocessor for modular styling.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://podbayapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/podbay" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
           <img src="img/display-kjconrad.png" alt="Kelly Conrad | Performer"/>
           <h2>kjconrad.com</h2>
           <p>
