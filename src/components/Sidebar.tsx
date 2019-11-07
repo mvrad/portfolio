@@ -36,7 +36,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
           </a>
         </div>
         <div className="sidebar-nav_link">
-          <a href="https://drive.google.com/open?id=1ZwLZ4V891PMl4uaHrxhH6DdPLQ7eismK" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/open?id=1BwBhDVScLztsDPKp1KBLFCP82z1PwegE" target="_blank" rel="noopener noreferrer">
             <svg className="icon nav-link" viewBox="0 0 24 28">
               <path d="M22.937 7.438c0.156 0.156 0.297 0.344 0.438 0.562h-7.375v-7.375c0.219 0.141 0.406 0.281 0.562 0.438zM15.5 10h8.5v16.5c0 0.828-0.672 1.5-1.5 1.5h-21c-0.828 0-1.5-0.672-1.5-1.5v-25c0-0.828 0.672-1.5 1.5-1.5h12.5v8.5c0 0.828 0.672 1.5 1.5 1.5zM18 21.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5zM18 17.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5zM18 13.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5z"></path>
             </svg>
@@ -44,7 +44,7 @@ const Sidebar: React.FC<SidebarProps> = () => {
           </a>
         </div>
         <div className="sidebar-nav_link">
-          <a href="https://mconradblog.herokuapp.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://blog.mconrad.io" target="_blank" rel="noopener noreferrer">
             <svg className="icon nav-link" viewBox="0 0 24 28">
               <path d="M5.672 24l1.422-1.422-3.672-3.672-1.422 1.422v1.672h2v2h1.672zM13.844 9.5c0-0.203-0.141-0.344-0.344-0.344-0.094 0-0.187 0.031-0.266 0.109l-8.469 8.469c-0.078 0.078-0.109 0.172-0.109 0.266 0 0.203 0.141 0.344 0.344 0.344 0.094 0 0.187-0.031 0.266-0.109l8.469-8.469c0.078-0.078 0.109-0.172 0.109-0.266zM13 6.5l6.5 6.5-13 13h-6.5v-6.5zM23.672 8c0 0.531-0.219 1.047-0.578 1.406l-2.594 2.594-6.5-6.5 2.594-2.578c0.359-0.375 0.875-0.594 1.406-0.594s1.047 0.219 1.422 0.594l3.672 3.656c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
             </svg>
