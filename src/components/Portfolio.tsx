@@ -65,6 +65,8 @@ const portfolio: React.SFC<portfolioProps> = () => {
           <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
           <p>
             Built in the Node.js Express framework, "Podbay" allows a user to search hundreds of different podcasts with the Listen API. "Podbay" uses the Pug HTML templating engine and the Sass CSS preprocessor for modular styling.
+            <br/><br/>
+            <b>This is an ongoing project and is still in progress</b>.
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://podbayapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
@@ -81,6 +83,8 @@ const portfolio: React.SFC<portfolioProps> = () => {
           <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
           <p>
             A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI.
+            <br/><br/>
+            <b>This is an ongoing project and is still in progress</b>.
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://blotapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
@@ -132,6 +136,22 @@ const portfolio: React.SFC<portfolioProps> = () => {
           <div className="portfolio-btn_wrapper">
             <a href="https://mvrad.github.io/tic-tac-toe" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/tic-tac-toe/blob/master/js/app.js" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Old Portfolio Site</h2>
+          <br/>
+          <img src="img/display-portfolio-old.png" alt="Portfolio Old"/>
+          <br/>
+          <img className="stack-img" src="img/portfolio-old-stack.svg" alt="Old Portfolio Stack"/>
+          <p>
+            My (old) portfolio site showcasing some of my best work in web development. Created using HTML, CSS with Sass/SCSS, JavaScript, and jQuery UI elements.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://mvrad.github.io/portfolio-old" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/portfolio-old" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
