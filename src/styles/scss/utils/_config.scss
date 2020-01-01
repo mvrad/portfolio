@@ -1,13 +1,13 @@
 // Global Config
 
 // Font stacks
-$font-url--google        : "https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:100,400,700&display=swap";
-$font-family--primary    : "Roboto", sans-serif;
-$font-family--secondary  : "Lato", sans-serif;
+$font-url--google        : "https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap";
+$font-family--primary    : "Lato", sans-serif;
 
 // Font weights
-$font-weight--medium	: 400;
-$font-weight--bold		: 700;
+$font-weight--medium  : 400;
+$font-weight--bold    : 700;
+$font-weight--black   : 900;
 
 // Descriptive base colors
 $white         : #fff;
@@ -15,6 +15,7 @@ $alto          : #D9D9D9;
 $mine-shaft    : #262626;
 $golden-dream  : #f2e635;
 $olive         : #3D9970;
+$marine        : #74c8a2;
 
 // Color usage
 $color-primary   : $mine-shaft;

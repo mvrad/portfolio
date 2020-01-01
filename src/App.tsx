@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import './styles/css/normalize.min.css';
 import './styles/scss/App.scss';
 import MobileNav from './components/MobileNav';
 import Sidebar from './components/Sidebar';

@@ -43,37 +43,31 @@
 }
 
 .welcome, .skills, .portfolio, .btn {
-  font-family: $font-family--secondary;
-  & h1 {
-    font-family: $font-family--secondary;
-  }
-  & h2 {
-    font-family: $font-family--secondary;
-  }
-  & p {
-    font-family: $font-family--secondary;
-  }
-  & btn {
-    font-family: $font-family--secondary;
-  }
+  font-family: $font-family--primary;
 }
 
-.skills, .portfolio {
+.welcome, .skills, .portfolio {
   line-height: 1.5;
 }
 
 .welcome {
+  @extend %flex-center-col;
   & h1 {
-    @extend %flex-center-row;
     color: $mine-shaft;
     font-size: 2em;
-    font-weight: 700;
-    @include mq(small) {
+    font-weight: 900;
+    @include mq(medium) {
       font-size: 3em;
     }
-    @include mq(medium) {
-      font-size: 6vw;
-    }
+  }
+  & h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+  }
+  .welcome-link {
+    color: $mine-shaft;
+    text-decoration: underline;
   }
 }
 

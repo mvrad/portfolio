@@ -120,14 +120,18 @@
 // Welcome
 
 .welcome {
-  background: url(../../../components/img/seattle.jpg) no-repeat center/cover;
-  background-color: $olive;
-  background-blend-mode: color-dodge;
-  @extend %flex-center-row;
+  background: url(../../../components/img/seattle.jpg) no-repeat 75% 40%;
+  background-color: $marine;
+  background-blend-mode: screen;
+  @extend %flex-center-col;
   height: 100vh;
   & h1 {
     margin: 0;
   }
+}
+
+.welcome {
+  padding: 15%;
 }
 
 .welcome, .skills, .portfolio, .alpha-ai {
@@ -152,7 +156,7 @@
 // Skills
 
 .skills {
-  background: url(../../../components/img/computer.jpg) no-repeat center/cover;
+  background: url(../../../components/img/computer.jpg) no-repeat center;
 }
 
 .skills-sub {
