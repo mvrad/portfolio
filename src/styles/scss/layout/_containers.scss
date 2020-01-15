@@ -120,9 +120,9 @@
 // Welcome
 
 .welcome {
-  background: url(../../../components/img/seattle.jpg) no-repeat 75% 40%;
+  background: url(../../../components/img/seattle.jpg) no-repeat center/cover;
   background-color: $marine;
-  background-blend-mode: screen;
+  background-blend-mode: soft-light;
   @extend %flex-center-col;
   height: 100vh;
   & h1 {

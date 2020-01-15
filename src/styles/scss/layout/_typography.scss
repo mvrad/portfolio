@@ -57,12 +57,12 @@
     font-size: 2em;
     font-weight: 900;
     @include mq(medium) {
-      font-size: 3.8em;
+      font-size: 4vw;
     }
   }
   & h2 {
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 1.2em;
+    font-weight: 700;
     margin: 20px 0 0 0;
   }
   .welcome-link {
