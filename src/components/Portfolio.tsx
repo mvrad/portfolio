@@ -7,6 +7,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
     <div className="portfolio">
       <div className="portfolio-title">
         <h1>Portfolio</h1>
+        <p>The following projects are web applications and landing page designs that I've worked on over the past two years or so. Each individual project contains a link to view it as a live site, and each web application project contains a link to its GitHub repository.</p>
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
