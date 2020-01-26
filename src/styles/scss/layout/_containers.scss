@@ -19,6 +19,7 @@
   @extend %flex-center-col;
   max-width: 320px;
   margin: 80px auto;
+  text-align: center;
   & a {
     padding-bottom: 5%;
   }
@@ -95,11 +96,13 @@
 .social {
   display: flex;
   justify-content: center;
-  border-top: 1px solid #606060;
   width: auto;
   height: auto;
-  padding-top: 40px;
   margin: 0 auto;
+  @include mq(medium) {
+    border-top: 1px solid #606060;
+    padding-top: 40px;
+  }
 }
 
 .copyright {
@@ -130,8 +133,9 @@
   }
 }
 
-.welcome {
-  padding: 15%;
+.welcome-wrapper {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .welcome, .skills, .portfolio, .alpha-ai {
@@ -153,6 +157,10 @@
   }
 }
 
+.portfolio-title {
+  margin-bottom: 160px;
+}
+
 // Skills
 
 .skills {
@@ -168,7 +176,6 @@
 }
 
 .skills-p {
-  border-top: 2px solid $mine-shaft;
   max-width: 600px;
   padding-top: 20px;
   margin: 0 auto 80px;
@@ -177,6 +184,7 @@
 .skills-sub_title {
   @extend %flex-center-row-left;
   align-items: flex-end;
+  border-bottom: 2px solid $mine-shaft;
   padding-bottom: 20px;
   & h1:first-child {
     border-bottom: 2px solid $mine-shaft;
@@ -199,7 +207,7 @@
 
 .portfolio {
   & h2 {
-    margin: 20px auto 0;
+    margin: 0 auto;
   }
 }
 
@@ -224,7 +232,6 @@
 }
 
 .portfolio-btn_wrapper {
-  padding-top: 10px;
   margin: 0 auto;
 }
 

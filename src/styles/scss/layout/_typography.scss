@@ -57,13 +57,18 @@
     font-size: 2em;
     font-weight: 900;
     @include mq(medium) {
-      font-size: 4vw;
+      font-size: 2.5em;
+      line-height: 1.2;
     }
   }
   & h2 {
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 20px 0 0 0;
+    display: none;
+    @include mq(medium) {
+      display: flex;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin: 20px 0 0 0;
+    }
   }
   .welcome-link {
     color: $mine-shaft;
@@ -83,18 +88,31 @@
     }
   }
   & h2 {
-    font-size: 1.5em;
+    font-weight: 700;
     @include mq(small) {
       font-size: 1.8em;
     }
     @include mq(medium) {
       font-size: 2em;
     }
-    font-weight: 700;
   }
   & p {
     font-size: 1em;
     font-weight: 400;
+  }
+}
+
+.skills h2 {
+  font-size: 6vw;
+}
+
+.portfolio h2 {
+  font-size: 8vw;
+  @include mq(small) {
+    font-size: 1.8em;
+  }
+  @include mq(medium) {
+    font-size: 2em;
   }
 }
 
