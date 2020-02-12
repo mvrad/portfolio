@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mconrad.me">
+  <a href="https://mconrad.io">
     <img alt="Logo" src="./public/img/my-logo_black.svg" width="84" />
   </a>
 </p>
