@@ -138,12 +138,13 @@ const portfolio: React.SFC<portfolioProps> = () => {
         <div className="portfolio-sub_title">
           <h2>Landing Page Design | Alpha.ai</h2>
           <img src="img/alpha.png" alt="Alpha.ai Landing Page"/>
-          <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/>
+          {/* <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/> */}
           <p>
-            A landing page design for a fictional artificial intelligence/machine learning company I dubbed "Alpha.ai". Images courtesy of Adobe Stock. Mockup created in Adobe XD.
+            A landing page design for a fictional artificial intelligence/machine learning company I dubbed "Alpha.ai". This project was created using Node.js, Express, and Tailwind CSS.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://alpha-ai-landing.herokuapp.com"><button className="btn" type="button">View</button></a>
+            <a href="https://alpha-ai-landing.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://github.com/mvrad/alpha.ai-landing-page" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
@@ -151,12 +152,13 @@ const portfolio: React.SFC<portfolioProps> = () => {
         <div className="portfolio-sub_title">
           <h2>Landing Page Design | Thinkspace</h2>
           <img src="img/thinkspace.png" alt="Thinkspace Landing Page"/>
-          <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/>
+          {/* <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/> */}
           <p>
-            A landing page design for a fictional digital marketing company I dubbed "Thinkspace". Images courtesy of Adobe Stock. Mockup created in Adobe XD.
+            A landing page design for a fictional digital marketing company I dubbed "Thinkspace". This project was created using Node.js, Express, and Tailwind CSS. <b>Note: This is an ongoing project and is still in progress</b>.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="/thinkspace"><button className="btn" type="button">View</button></a>
+            <a href="https://think-space-landing.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://github.com/mvrad/thinkspace-landing-page" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
