@@ -9,6 +9,9 @@ package-lock.json
 # testing
 /coverage
 
+# buid
+/build
+
 # misc
 .DS_Store
 .env.local
