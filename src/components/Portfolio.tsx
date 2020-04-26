@@ -46,7 +46,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             Built in the PHP Laravel framework and styled with Bootstrap components, my personal blog connects to ButterCMS where I write my blog posts. In my blog, I talk about web development, discoveries and breakthroughs in science and engineering, movie reviews, and pretty much anything I find interesting enough to write about.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://mconradblog.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://blog.mconrad.io" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/blog" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
