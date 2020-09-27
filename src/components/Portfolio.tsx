@@ -23,7 +23,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
           </div>
         </div>
       </div>
-      <div className="portfolio-sub">
+      {/* <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>Wine House</h2>
           <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
@@ -36,8 +36,8 @@ const portfolio: React.SFC<portfolioProps> = () => {
             <a href="https://github.com/mvrad/wine-house" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
-      </div>
-      <div className="portfolio-sub">
+      </div> */}
+      {/* <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>My Blog</h2>
           <img src="img/display-blog.png" alt="Matthew Conrad | Blog"/>
@@ -50,8 +50,8 @@ const portfolio: React.SFC<portfolioProps> = () => {
             <a href="https://github.com/mvrad/blog" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
-      </div>
-      <div className="portfolio-sub">
+      </div> */}
+      {/* <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>Podbay</h2>
           <img src="img/display-podbay.png" alt="Podbay | Search Podcasts"/>
@@ -64,21 +64,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
             <a href="https://github.com/mvrad/podbay" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Blot</h2>
-          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
-          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
-          <p>
-            A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI. <b>Note: This is an ongoing project and is still in progress</b>.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blot" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
+      </div> */}
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>mconrad.io</h2>
@@ -136,7 +122,7 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Landing Page Design | Alpha.ai</h2>
+          <h2>Alpha.ai | Landing Page Design</h2>
           <img src="img/alpha.png" alt="Alpha.ai Landing Page"/>
           {/* <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/> */}
           <p>
@@ -150,15 +136,15 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Landing Page Design | Thinkspace</h2>
-          <img src="img/thinkspace.png" alt="Thinkspace Landing Page"/>
-          {/* <img className="stack-img" src="img/landing-pages.svg" alt="Landing page stack"/> */}
+          <h2>Blot | Landing Page Design</h2>
+          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
+          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
           <p>
-            A landing page design for a fictional digital marketing company I dubbed "Thinkspace". This project was created using Node.js, Express, and Tailwind CSS. <b>Note: This is an ongoing project and is still in progress</b>.
+            A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI. <b>Note: This is an ongoing project and is still in progress</b>.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://think-space-landing.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
-            <a href="https://github.com/mvrad/thinkspace-landing-page" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+            <a href="https://blotapp.herokuapp.com" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blot" target="_blank" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
