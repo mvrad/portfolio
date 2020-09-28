@@ -6,9 +6,8 @@ const Welcome: React.SFC<WelcomeProps> = (props) => {
   return (
     <div className="welcome">
       <div className="welcome-wrapper">
-        <h1>Hi! &#128075; I'm Matt, a web developer based in Seattle.</h1>
-        <h2>I utilize my background in graphic design and software engineering to build web sites and web applications according to principles of good design and web development best practices.</h2>
-        <h2>When I'm not at the computer, I like to play guitar or attend tech meetups such as SeattleJS.</h2>
+        <h1>I'm Matt, a web developer based in Seattle.</h1>
+        <h2>This is my portfolio where you can find examples of some of my work; I built my first web site in 2017. I utilize my background in web development and graphic design to build web sites and applications according to principles of good design and web development best practices.</h2>
       </div>
     </div>
   );
