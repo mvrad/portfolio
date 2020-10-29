@@ -65,34 +65,6 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>My Blog</h2>
-          <img src="img/display-blog.png" alt="Matthew Conrad | Blog"/>
-          <img className="stack-img" src="img/blog-stack.svg" alt="Blog stack"/>
-          <p>
-            Built in the PHP Laravel framework and styled with Bootstrap components, my personal blog connects to ButterCMS where I write my blog posts. In my blog, I talk about web development, discoveries and breakthroughs in science and engineering, movie reviews, and pretty much anything I find interesting enough to write about.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://blog.mconrad.io" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blog" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Podbay</h2>
-          <img src="img/display-podbay.png" alt="Podbay | Search Podcasts"/>
-          <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
-          <p>
-            Built in the Node.js Express framework, "Podbay" allows a user to search hundreds of different podcasts with the Listen API. "Podbay" uses the Pug HTML templating engine and the Sass CSS preprocessor for modular styling.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://podbayapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/podbay" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <h2>mconrad.io</h2>
           <img src="img/mconradio.png" alt="Matt Conrad | Web Developer"/>
           <img className="stack-img" src="img/mconradio.svg" alt="mconrad.io stack"/>

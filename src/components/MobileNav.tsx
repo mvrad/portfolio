@@ -21,8 +21,8 @@ const MobileNav: React.SFC<MobileNavProps> = (props) => {
         <a href="https://drive.google.com/open?id=10NqFDcRAKCecyUnHNYpiOluxDx0_S2WY" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
-        <a href="https://mconradblog.herokuapp.com" target="_blank" rel="noopener noreferrer">
-          Blog
+        <a href="https://www.behance.net/mvrad" target="_blank" rel="noopener noreferrer">
+          Artwork
         </a>
       </div>
       <div className="social">
@@ -35,11 +35,6 @@ const MobileNav: React.SFC<MobileNavProps> = (props) => {
           <svg className="icon linkedin" viewBox="0 0 32 32">
             <path d="M27.263 27.269h-4.739v-7.425c0-1.771-0.036-4.049-2.469-4.049-2.471 0-2.848 1.927-2.848 3.919v7.556h-4.739v-15.269h4.552v2.081h0.061c0.636-1.2 2.183-2.467 4.493-2.467 4.801 0 5.689 3.16 5.689 7.273zM7.116 9.911c-1.525 0-2.751-1.235-2.751-2.753 0-1.517 1.227-2.751 2.751-2.751 1.52 0 2.752 1.233 2.752 2.751 0 1.519-1.233 2.753-2.752 2.753zM9.492 27.269h-4.752v-15.269h4.752zM29.633 0h-27.272c-1.305 0-2.361 1.032-2.361 2.305v27.389c0 1.275 1.056 2.305 2.361 2.305h27.268c1.304 0 2.371-1.031 2.371-2.305v-27.389c0-1.273-1.067-2.305-2.371-2.305z"></path>
           </svg>
-        </a>
-        <a href="https://www.artstation.com/mvrad">
-        <svg className="icon twitter" viewBox="0 0 32 32">
-          <path d="M0 23.631l2.704 4.673c0.544 1.062 1.631 1.777 2.885 1.777h17.943l-3.723-6.451zM32 23.664c0-0.645-0.191-1.247-0.517-1.752l-10.512-18.275c-0.554-1.030-1.625-1.719-2.856-1.719-0 0-0 0-0 0h-5.556l16.239 28.135 2.56-4.433c0.504-0.849 0.643-1.225 0.643-1.956zM17.161 19.048l-7.257-12.571-7.259 12.571z"></path>
-        </svg>
         </a>
       </div>
     </div>
