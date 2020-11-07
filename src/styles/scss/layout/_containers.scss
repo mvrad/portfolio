@@ -124,19 +124,23 @@
 // Welcome
 
 .welcome {
-  background: url(../../../components/img/seattle.jpg) no-repeat center/cover;
-  background-color: $marine;
-  background-blend-mode: soft-light;
+  background: #77dd77;
   @extend %flex-center-col;
   height: 100vh;
-  & h1 {
-    margin: 0;
+  @include mq(medium) {
+    background: center bottom/90% no-repeat #77dd77 url(../../../components/img/programmer.svg);
+    background-size: 700px;
   }
 }
 
 .welcome-wrapper {
-  max-width: 770px;
   margin: 0 auto;
+  padding: 0 20px;
+  @include mq(medium) {
+    max-width: 700px;
+    margin: auto auto 500px;
+    padding: 0;
+  }
 }
 
 .welcome, .skills, .portfolio, .alpha-ai {
@@ -150,7 +154,7 @@
 }
 
 .skills-title, .portfolio-title {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto 80px;
   & h1 {
     margin: 0;
@@ -165,11 +169,11 @@
 // Skills
 
 .skills {
-  background: #fff;
+  background: #8eaade;
 }
 
 .skills-sub {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   &:first-child p {
     margin-top: 60px;
@@ -177,7 +181,7 @@
 }
 
 .skills-p {
-  max-width: 600px;
+  max-width: 700px;
   padding-top: 20px;
   margin: 0 auto 80px;
 }
@@ -207,13 +211,14 @@
 // Portfolio
 
 .portfolio {
+  background: #deba6d;
   & h2 {
     margin: 0 auto;
   }
 }
 
 .portfolio-sub {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .portfolio-sub:first-child {

@@ -11,19 +11,6 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Krystal Dazzle Skincare</h2>
-          <img src="img/display-krystaldazzle.png" alt="Krystal Dazzle Skincare"/>
-          <img className="stack-img" src="img/krystaldazzle-stack.svg" alt="Krystal Dazzle Skincare stack"/>
-          <p>
-            A Shopify app for a skincare product site. Logos and images created in Adobe Illustrator and Photoshop.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://krystaldazzleskincare.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <h2>TravelStar</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
           <img className="stack-img" src="img/travelstar-stack.svg" alt="TravelStar stack"/>
