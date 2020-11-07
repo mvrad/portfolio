@@ -39,6 +39,20 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
+          <h2>My Blog</h2>
+          <img src="img/display-blog.png" alt="blog.mconrad.io"/>
+          <img className="stack-img" src="img/blog-stack.svg" alt="Blog stack"/>
+          <p>
+            Built in the PHP Laravel framework and styled with Bootstrap components, my personal blog connects to ButterCMS where I write my blog posts.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://blog.mconrad.io" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blog" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
           <h2>Guitar Zone API</h2>
           <img src="img/display-guitar-zone.png" alt="Guitar Zone API"/>
           <img className="stack-img" src="img/guitar-zone-stack.svg" alt="Guitar Zone API stack"/>
@@ -47,33 +61,6 @@ const portfolio: React.SFC<portfolioProps> = () => {
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://github.com/mvrad/guitar-zone-api" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>mconrad.io</h2>
-          <img src="img/mconradio.png" alt="Matt Conrad | Web Developer"/>
-          <img className="stack-img" src="img/mconradio.svg" alt="mconrad.io stack"/>
-          <p>
-            Built with React, TypeScript, and Sass/SCSS, this is my personal portfolio site showcasing my best work in web development.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://github.com/mvrad/portfolio" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>kjconrad.com</h2>
-          <img src="img/display-kjconrad.png" alt="Kelly Conrad | Performer"/>
-          <img className="stack-img" src="img/kjconrad-stack.svg" alt="kjconrad stack"/>
-          <p>
-            Created with the traditional web stack of HTML, CSS, and JavaScript, this is the official site of performer and instructor Kelly Conrad.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://www.kjconrad.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/performer-site" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
@@ -93,6 +80,33 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
+          <h2>kjconrad.com</h2>
+          <img src="img/display-kjconrad.png" alt="Kelly Conrad | Performer"/>
+          <img className="stack-img" src="img/kjconrad-stack.svg" alt="kjconrad stack"/>
+          <p>
+            Created with the traditional web stack of HTML, CSS, and JavaScript, this is the official site of performer and instructor Kelly Conrad.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://www.kjconrad.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/performer-site" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>mconrad.io</h2>
+          <img src="img/mconradio.png" alt="Matt Conrad | Web Developer"/>
+          <img className="stack-img" src="img/mconradio.svg" alt="mconrad.io stack"/>
+          <p>
+            Built with React, TypeScript, and Sass/SCSS, this is my personal portfolio site showcasing my best work in web development.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://github.com/mvrad/portfolio" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
           <h2>Old Portfolio Site</h2>
           <img src="img/display-portfolio-old.png" alt="Portfolio Old"/>
           <img className="stack-img" src="img/portfolio-old-stack.svg" alt="Old Portfolio Stack"/>
@@ -107,20 +121,6 @@ const portfolio: React.SFC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Blot | Landing Page Design</h2>
-          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
-          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
-          <p>
-            A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <h2>Alpha.ai | Landing Page Design</h2>
           <img src="img/alpha.png" alt="Alpha.ai Landing Page"/>
           <img className="stack-img" src="img/alpha-ai-stack.svg" alt="Alpha.ai tack"/>
@@ -130,6 +130,20 @@ const portfolio: React.SFC<portfolioProps> = () => {
           <div className="portfolio-btn_wrapper">
             <a href="https://alpha-ai-landing.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
             <a href="https://github.com/mvrad/alpha.ai-landing-page" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Blot | Landing Page Design</h2>
+          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
+          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
+          <p>
+            A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
