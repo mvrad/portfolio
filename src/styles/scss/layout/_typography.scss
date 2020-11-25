@@ -1,19 +1,19 @@
 // Typography
 
-.mobile-nav, .sidebar {
+.mobile-nav, .sidebar, button {
     font-family: $font-family--primary;
-  & h1 {
+  & h1, button {
     font-weight: 400;
   }
-  & a, p {
+  & a, p, button {
     font-weight: 400;
     display: flex;
     align-items: center;
   }
-  & a {
+  & a, button {
     color: $alto;
   }
-  & p {
+  & p, button p {
     color: $golden-dream;
     margin: 0 auto;
   }
@@ -26,13 +26,20 @@
     font-size: 1.1em
     }
   }
+  & button {
+    font-size: 1.3em;
+    @include mq(medium) {
+    font-size: 1.1em
+    }
+  }
 }
 .copyright p {
   font-size: 1em;
 }
 
 .sidebar a:hover,
-.mobile-nav a:hover {
+.mobile-nav a:hover,
+button:hover {
   color: $golden-dream;
   transition: 0.3s;
 }
@@ -66,11 +73,11 @@
     }
   }
   & h2 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 400;
     @include mq(medium) {
       display: flex;
-      font-size: 1.2em;
+      font-size: 1em;
       margin: 0;
     }
   }
