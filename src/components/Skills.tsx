@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface skillsProps { }
 
-const skills: React.SFC<skillsProps> = () => {
+const skills: React.FC<skillsProps> = () => {
   return (
     <div className="skills">
       <div className="skills-title">

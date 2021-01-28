@@ -38,3 +38,21 @@ textarea {
 audio, canvas, iframe, img, svg, video {
   vertical-align: middle;
 }
+
+.gallery-figcaption--info .photo-caption, .gallery-figcaption--info,
+.photo-subcaption, .gallery-figcaption, .gallery-thumbnails--toggle, button {
+  font-family: 'Lato';
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}

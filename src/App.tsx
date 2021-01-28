@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './styles/css/normalize.min.css';
+import 'react-bnb-gallery/dist/style.css';
 import './styles/scss/App.scss';
 import MobileNav from './components/MobileNav';
 import Sidebar from './components/Sidebar';
@@ -8,7 +9,7 @@ import Welcome from './components/Welcome';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 
-const App: React.FC = () => {
+function App() {
   return (
     <div className="App">
       <MobileNav />

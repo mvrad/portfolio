@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface portfolioProps { }
 
-const portfolio: React.SFC<portfolioProps> = () => {
+const Portfolio: React.FC<portfolioProps> = () => {
   return (
     <div className="portfolio">
       <div className="portfolio-title">
@@ -151,4 +151,4 @@ const portfolio: React.SFC<portfolioProps> = () => {
   );
 }
 
-export default portfolio;
+export default Portfolio;
