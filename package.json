@@ -2,11 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "engines": {
-<<<<<<< HEAD
     "node": "14.15.3"
-=======
-    "node": "14.15.1"
->>>>>>> 4590dbfc1f349b905e5ffa0ea71d840cd56b7f48
   },
   "private": true,
   "dependencies": {
