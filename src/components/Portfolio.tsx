@@ -11,11 +11,25 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>TravelStar</h2>
+          <h2>Blot | To-Do and Notes</h2>
+          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
+          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
+          <p>
+            A to-do app featuring user authentication created in the MERN framework with TypeScript and styled using Material-UI.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>TravelStar | Destination Information</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
           <img className="stack-img" src="img/travelstar-stack.svg" alt="TravelStar stack"/>
           <p>
-            Created using the PHP framework Laravel, "TravelStar" is a small, lightweight web application hosted on Heroku that prompts a user to search the Sygic Travel third-party API for a list of top ten tourist attractions such as landmarks, top tourist activities such as bus tours, photos of the location taken by tourists, and various dining options in the area.
+            Created using the PHP framework Laravel, "TravelStar" is a small, lightweight web application hosted on Heroku that prompts a user to search the Sygic Travel API for a list of top ten tourist attractions such as landmarks, top tourist activities such as bus tours, photos of the location taken by tourists, and various dining options in the area.
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://travelstar.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
@@ -25,11 +39,11 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Wine House</h2>
+          <h2>Wine House | Virtual Wine Cellar</h2>
           <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
           <img className="stack-img" src="img/wine-house-stack.svg" alt="Wine House stack"/>
           <p>
-            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account and then search the Snooth.com API for wine, edit wine bottle information, and add information to a collection.
+            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account, then edit wine bottle information and add it to a collection.
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://winoapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
@@ -80,7 +94,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>kjconrad.com</h2>
+          <h2>Kelly Conrad | Performer</h2>
           <img src="img/display-kjconrad.png" alt="Kelly Conrad | Performer"/>
           <img className="stack-img" src="img/kjconrad-stack.svg" alt="kjconrad stack"/>
           <p>
@@ -94,7 +108,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>mconrad.io</h2>
+          <h2>Matt Conrad | Web Developer</h2>
           <img src="img/mconradio.png" alt="Matt Conrad | Web Developer"/>
           <img className="stack-img" src="img/mconradio.svg" alt="mconrad.io stack"/>
           <p>
@@ -130,20 +144,6 @@ const Portfolio: React.FC<portfolioProps> = () => {
           <div className="portfolio-btn_wrapper">
             <a href="https://alpha-ai-landing.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
             <a href="https://github.com/mvrad/alpha.ai-landing-page" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Blot | Landing Page Design</h2>
-          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
-          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
-          <p>
-            A simple, easy-to-use to-do app that allows a user to create and save notes and lists, and features an authentication system so that the user can create a secure account in order to save his/her notes and lists. Bootstrapped with Create React App and styled using Material-UI.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
