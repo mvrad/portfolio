@@ -101,7 +101,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
             Created with the traditional web stack of HTML, CSS, and JavaScript, this is the official site of performer and instructor Kelly Conrad.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://www.kjconrad.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://kjconrad.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/performer-site" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
