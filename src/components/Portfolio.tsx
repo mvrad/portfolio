@@ -108,6 +108,19 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
+          <h2>Krystal Dazzle Skincare</h2>
+          <img src="img/display-krystaldazzle.png" alt="Krystal Dazzle Skincare"/>
+          <img className="stack-img" src="img/krystaldazzle-stack.svg" alt="krystal dazzle stack"/>
+          <p>
+            A Shopify-themed site I created for a skincare product line. "Krystal Dazzle" logo created in Adobe Illustrator. Images courtesy of Adobe Stock.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://krystaldazzles.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
           <h2>Matt Conrad | Web Developer</h2>
           <img src="img/mconradio.png" alt="Matt Conrad | Web Developer"/>
           <img className="stack-img" src="img/mconradio.svg" alt="mconrad.io stack"/>
