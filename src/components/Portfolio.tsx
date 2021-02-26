@@ -7,7 +7,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
     <div className="portfolio">
       <div className="portfolio-title">
         <h1>Portfolio</h1>
-        <p>My portfolio contains web sites, apps, and landing page designs that I've created. Each project contains a link to view it as a live site, as well as a link to view its GitHub repo. The projects date from 2017 - Present.</p>
+        <p>My portfolio contains web sites, web apps, and landing page designs that I've created. Each project contains a link to view it as a live site, as well as a link to view its GitHub repo.</p>
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
@@ -15,11 +15,25 @@ const Portfolio: React.FC<portfolioProps> = () => {
           <img src="img/display-blot.png" alt="Blot | ToDo App"/>
           <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
           <p>
-            A to-do app featuring user authentication created in the MERN framework with TypeScript and styled using Material-UI.
+            A to-do app created in the MERN framework with TypeScript featuring user authentication and Material-UI components.
           </p>
           <div className="portfolio-btn_wrapper">
             <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Podbay | Podcast Search</h2>
+          <img src="img/display-podbay.png" alt="Podbay | Podcast Search"/>
+          <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
+          <p>
+            Search podcast information and get new podcast suggestions. Powered by Listen Notes API and created in React and GraphQL.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://podbay.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/podbay" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
@@ -39,20 +53,6 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Wine House | Virtual Wine Cellar</h2>
-          <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
-          <img className="stack-img" src="img/wine-house-stack.svg" alt="Wine House stack"/>
-          <p>
-            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account, then edit wine bottle information and add it to a collection.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://winoapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/wine-house" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <h2>My Blog</h2>
           <img src="img/display-blog.png" alt="blog.mconrad.io"/>
           <img className="stack-img" src="img/blog-stack.svg" alt="Blog stack"/>
@@ -62,6 +62,20 @@ const Portfolio: React.FC<portfolioProps> = () => {
           <div className="portfolio-btn_wrapper">
             <a href="https://blog.mconrad.io" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
             <a href="https://github.com/mvrad/blog" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Wine House | Virtual Wine Cellar</h2>
+          <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
+          <img className="stack-img" src="img/wine-house-stack.svg" alt="Wine House stack"/>
+          <p>
+            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account, then edit wine bottle information and add it to a collection.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://winoapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/wine-house" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
