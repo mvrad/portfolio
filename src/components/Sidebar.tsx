@@ -6,34 +6,34 @@ export interface sidebarProps { }
 const Sidebar: React.FC<sidebarProps> = () => {
   const [isOpen, setIsOpen] = useState(false);
   const photos = [{
-    photo: "img/still_life4.jpg",
-    caption: "'Still Life with Fruits and Wine' | Oil on Linen | 40 x 30 in.",
-    subcaption: "© 2020 Matthew Conrad",
-    thumbnail: "img/still_life4.jpg",
-  }, {
     photo: "img/view_of_the_coast.jpg",
     caption: "'View of the Coast' | Oil on Linen | 36 x 24 in.",
-    subcaption: "© 2020 Matthew Conrad",
+    subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/view_of_the_coast.jpg",
+  }, {
+    photo: "img/still_life4.jpg",
+    caption: "'Still Life with Fruits and Wine' | Oil on Linen | 40 x 30 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/still_life4.jpg",
   }, {
     photo: "img/landscape1.jpg",
     caption: "'Storm Clouds Over Tuscany' | Acrylic on Canvas | 20 x 16 in.",
-    subcaption: "© 2020 Matthew Conrad",
+    subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/landscape1.jpg",
   }, {
     photo: "img/still_life3.jpg",
     caption: "'Afternoon in Talamone' | Acrylic on Canvas | 20 x 16 in.",
-    subcaption: "© 2020 Matthew Conrad",
+    subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life3.jpg",
   }, {
     photo: "img/still_life2.jpg",
     caption: "'Still Life with Book and Candle' | Acrylic on Canvas | 16 x 18 in.",
-    subcaption: "© 2020 Matthew Conrad",
+    subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life2.jpg",
   }, {
     photo: "img/still_life1.jpg",
     caption: "'Still Life with Orange and Wine Glass' | Acrylic on Canvas | 16 x 18 in.",
-    subcaption: "© 2020 Matthew Conrad",
+    subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life1.jpg",
   }];
   return (
@@ -113,7 +113,7 @@ const Sidebar: React.FC<sidebarProps> = () => {
         </div>
         <div className="copyright">
           <p>
-          &#169; 2020. Made with <span className="coffee">&#9749;</span>
+          &#169; 2021. Made with <span className="coffee">&#9749;</span>
           </p>
         </div>
       </div>
