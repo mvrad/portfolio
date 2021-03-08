@@ -11,34 +11,6 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Blot | To-Do and Notes</h2>
-          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
-          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
-          <p>
-            A to-do app created in the MERN framework with TypeScript featuring user authentication and Material-UI components.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Podbay | Podcast Search</h2>
-          <img src="img/display-podbay.png" alt="Podbay | Podcast Search"/>
-          <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
-          <p>
-            Search podcast information and get new podcast suggestions. Powered by Listen Notes API and created in React and GraphQL.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://podbay.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/podbay" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
           <h2>TravelStar | Destination Information</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
           <img className="stack-img" src="img/travelstar-stack.svg" alt="TravelStar stack"/>
@@ -171,6 +143,52 @@ const Portfolio: React.FC<portfolioProps> = () => {
           <div className="portfolio-btn_wrapper">
             <a href="https://alpha-ai-landing.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
             <a href="https://github.com/mvrad/alpha.ai-landing-page" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-title">
+        <h1>In Progress</h1>
+        <p>The following are projects I'm still working on. Their functionality may be limited.</p>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Blot | To-Do and Notes</h2>
+          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
+          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
+          <p>
+            A to-do app created in the MERN framework with TypeScript featuring user authentication and Material-UI components.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Podbay | Podcast Search</h2>
+          <img src="img/display-podbay.png" alt="Podbay | Podcast Search"/>
+          <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
+          <p>
+            Search podcast information and get new podcast suggestions. Powered by Listen Notes API and created in React and GraphQL.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://podbay.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/podbay" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+      <div className="portfolio-sub">
+        <div className="portfolio-sub_title">
+          <h2>Thinkspace | Landing Page Design</h2>
+          <img src="img/display-thinkspace.png" alt="Thinkspace Landing Page"/>
+          <img className="stack-img" src="img/alpha-ai-stack.svg" alt="Thinkspace stack"/>
+          <p>
+            A landing page design for a fictional digital marketing agency I dubbed "Thinkspace". This project was created using Node.js, Express, and Tailwind CSS.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://thinkspace.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
+            <a href="https://github.com/mvrad/thinkspace" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
