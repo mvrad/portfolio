@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface WelcomeProps { }
 
-const Welcome: React.SFC<WelcomeProps> = (props) => {
+const Welcome: React.FC<WelcomeProps> = (props) => {
   return (
     <div className="welcome">
       <div className="welcome-wrapper">
