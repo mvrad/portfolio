@@ -10,7 +10,6 @@ const Portfolio: React.FC<portfolioProps> = () => {
         <p>My portfolio contains web sites, web apps, and landing page designs that I've created. Each project contains a link to view it as a live site, as well as a link to view its GitHub repo.</p>
       </div>
       <div className="portfolio-sub">
-      <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>Blot | Project &amp; Issue Tracker</h2>
           <img src="img/display-blot.png" alt="Blot | ToDo App"/>
@@ -24,7 +23,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="portfolio-sub">
         <div className="portfolio-sub_title">
           <h2>TravelStar | City Travel Info</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
