@@ -24,6 +24,7 @@ const Portfolio: React.FC<portfolioProps> = () => {
           </div>
         </div>
       </div>
+      <div>
         <div className="portfolio-sub_title">
           <h2>TravelStar | City Travel Info</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
