@@ -1,48 +1,103 @@
-// import React, { useState } from 'react';
-// import ReactBnbGallery from 'react-bnb-gallery';
+import React, { useState } from 'react';
+import ReactBnbGallery from 'react-bnb-gallery';
 
 export interface sidebarProps { }
 
 const Sidebar: React.FC<sidebarProps> = () => {
-  // const [isOpen, setIsOpen] = useState(false);
-  // const photos = [{
-  //   photo: "img/view_of_the_coast.jpg",
-  //   caption: "'View of the Coast' | Oil on Linen | 36 x 24 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/view_of_the_coast.jpg",
-  // }, {
-  //   photo: "img/still_life4.jpg",
-  //   caption: "'Still Life with Fruits and Wine' | Oil on Linen | 40 x 30 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/still_life4.jpg",
-  // }, {
-  //   photo: "img/landscape1.jpg",
-  //   caption: "'Storm Clouds Over Tuscany' | Acrylic on Canvas | 20 x 16 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/landscape1.jpg",
-  // }, {
-  //   photo: "img/still_life3.jpg",
-  //   caption: "'Afternoon in Talamone' | Acrylic on Canvas | 20 x 16 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/still_life3.jpg",
-  // }, {
-  //   photo: "img/still_life2.jpg",
-  //   caption: "'Still Life with Book and Candle' | Acrylic on Canvas | 16 x 18 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/still_life2.jpg",
-  // }, {
-  //   photo: "img/still_life1.jpg",
-  //   caption: "'Still Life with Orange and Wine Glass' | Acrylic on Canvas | 16 x 18 in.",
-  //   subcaption: "© 2021 Matthew Conrad",
-  //   thumbnail: "img/still_life1.jpg",
-  // }];
+  const [isOpen, setIsOpen] = useState(false);
+  const photos = [{
+    photo: "img/view_of_the_coast.jpg",
+    caption: "'View of the Coast' | Oil on Linen | 36 x 24 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/view_of_the_coast.jpg",
+  }, {
+    photo: "img/still_life4.jpg",
+    caption: "'Still Life with Fruits and Wine' | Oil on Linen | 40 x 30 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/still_life4.jpg",
+  }, {
+    photo: "img/landscape1.jpg",
+    caption: "'Storm Clouds Over Tuscany' | Acrylic on Canvas | 20 x 16 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/landscape1.jpg",
+  }, {
+    photo: "img/still_life3.jpg",
+    caption: "'Afternoon in Talamone' | Acrylic on Canvas | 20 x 16 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/still_life3.jpg",
+  }, {
+    photo: "img/still_life2.jpg",
+    caption: "'Still Life with Book and Candle' | Acrylic on Canvas | 16 x 18 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/still_life2.jpg",
+  }, {
+    photo: "img/still_life1.jpg",
+    caption: "'Still Life with Orange and Wine Glass' | Acrylic on Canvas | 16 x 18 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/still_life1.jpg",
+  }, {
+    photo: "img/Design/krystal-dazzle_logo.png",
+    caption: "'Krystal Dazzle Skincare Logo' | Krystal Dazzle Skincare",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/krystal-dazzle_logo.png",
+  }, {
+    photo: "img/Design/sea_moss_turmeric_mask.png",
+    caption: "'Sea Moss Turmeric Mask' | Labels for Krystal Dazzle Skincare Products",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/sea_moss_turmeric_mask.png",
+  }, {
+    photo: "img/Design/honey_turmeric_soap_large.png",
+    caption: "'Honey Turmeric Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/honey_turmeric_soap_large.png",
+  }, {
+    photo: "img/Design/rose_petal_oil_soap_large.png",
+    caption: "'Rose Petal Oil Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/rose_petal_oil_soap_large.png",
+  }, {
+    photo: "img/Design/vanilla_and_honey_soap_large.png",
+    caption: "'Vanilla and Honey Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/vanilla_and_honey_soap_large.png",
+  }, {
+    photo: "img/Design/lavender_and_goat_milk_soap_large.png",
+    caption: "'Lavender and Goat Milk Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/lavender_and_goat_milk_soap_large.png",
+  }, {
+    photo: "img/Design/gg20.jpg",
+    caption: "'GG Coat of Arms' | Grow Gang Cannabis-Inspired Apparel",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/gg20.jpg",
+  }, {
+    photo: "img/Design/gg17.jpg",
+    caption: "'Might Smoking Flower Rangers' | Grow Gang Cannabis-Inspired Apparel",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/gg17.jpg",
+  }, {
+    photo: "img/Design/gg15.jpg",
+    caption: "'Get Lifted' | Grow Gang Cannabis-Inspired Apparel",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/gg15.jpg",
+  }, {
+    photo: "img/Design/edibles_mango_front.png",
+    caption: "'Mango Flavored Gummy Edibles' | Royal Kreations Cannabis Co.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/edibles_mango_front.png",
+  }, {
+    photo: "img/Design/edibles_strawberry_front.png",
+    caption: "'Strawberry Flavored Gummy Edibles' | Royal Kreations Cannabis Co.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/Design/edibles_strawberry_front.png",
+  }];
   return (
     <>
-      {/* <ReactBnbGallery
+      <ReactBnbGallery
         show={isOpen}
         onClose={() => setIsOpen(false)}
         photos={photos}
-      /> */}
+      />
       <div className="sidebar">
         <div className="sidebar-header">
           <div>
@@ -75,29 +130,13 @@ const Sidebar: React.FC<sidebarProps> = () => {
             </a>
           </div>
           <div className="sidebar-nav_link">
-            <a href="/img/matthew-conrad_resume.pdf">
-              <svg className="icon nav-link" viewBox="0 0 24 28">
-                <path d="M22.937 7.438c0.156 0.156 0.297 0.344 0.438 0.562h-7.375v-7.375c0.219 0.141 0.406 0.281 0.562 0.438zM15.5 10h8.5v16.5c0 0.828-0.672 1.5-1.5 1.5h-21c-0.828 0-1.5-0.672-1.5-1.5v-25c0-0.828 0.672-1.5 1.5-1.5h12.5v8.5c0 0.828 0.672 1.5 1.5 1.5zM18 21.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5zM18 17.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5zM18 13.5v-1c0-0.281-0.219-0.5-0.5-0.5h-11c-0.281 0-0.5 0.219-0.5 0.5v1c0 0.281 0.219 0.5 0.5 0.5h11c0.281 0 0.5-0.219 0.5-0.5z"></path>
-              </svg>
-              Resume
-            </a>
-          </div>
-          <div className="sidebar-nav_link">
-            <a href="https://blog.mconrad.io">
-              <svg className="icon nav-link" viewBox="0 0 512 512">
-              <path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"></path>
-              </svg>
-              Blog
-            </a>
-          </div>
-          {/* <div className="sidebar-nav_link">
             <button onClick={() => setIsOpen(true)}>
               <svg className="icon nav-link" viewBox="0 0 28 28">
                 <path d="M25.234 0c1.422 0 2.734 1.062 2.734 2.547 0 0.828-0.328 1.625-0.703 2.359-1.219 2.312-5.313 9.953-7.266 11.75-0.953 0.891-2.078 1.422-3.406 1.422-2.641 0-4.797-2.25-4.797-4.875 0-1.25 0.516-2.469 1.437-3.313l9.969-9.047c0.547-0.5 1.266-0.844 2.031-0.844zM11.031 16.156c0.812 1.578 2.297 2.766 4.016 3.219l0.016 1.109c0.094 4.453-3 7.516-7.469 7.516-5.297 0-7.594-4.219-7.594-9.016 0.578 0.391 2.594 2 3.25 2 0.391 0 0.719-0.219 0.859-0.578 1.328-3.469 3.406-4.094 6.922-4.25z"></path>
               </svg>
-              Artwork
+              Art/Design
             </button>
-          </div> */}
+          </div>
         </div>
         <div className="social">
           <a href="https://github.com/mvrad">

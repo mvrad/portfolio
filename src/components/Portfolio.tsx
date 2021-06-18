@@ -10,8 +10,22 @@ const Portfolio: React.FC<portfolioProps> = () => {
         <p>My portfolio contains web sites, web apps, and landing page designs that I've created. Each project contains a link to view it as a live site, as well as a link to view its GitHub repo.</p>
       </div>
       <div className="portfolio-sub">
+      <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>TravelStar | Destination Information</h2>
+          <h2>Blot | Project &amp; Issue Tracker</h2>
+          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
+          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
+          <p>
+            A project/issue/bug tracker created in the MERN framework with TypeScript featuring user authentication and Material-UI components.
+          </p>
+          <div className="portfolio-btn_wrapper">
+            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+          </div>
+        </div>
+      </div>
+        <div className="portfolio-sub_title">
+          <h2>TravelStar | City Travel Info</h2>
           <img src="img/display-travelstar.png" alt="TravelStar | Travel App"/>
           <img className="stack-img" src="img/travelstar-stack.svg" alt="TravelStar stack"/>
           <p>
@@ -25,56 +39,14 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>My Blog</h2>
-          <img src="img/display-blog.png" alt="blog.mconrad.io"/>
-          <img className="stack-img" src="img/blog-stack.svg" alt="Blog stack"/>
+          <h2>Krystal Dazzle Skincare</h2>
+          <img src="img/display-krystaldazzle.png" alt="Krystal Dazzle Skincare"/>
+          <img className="stack-img" src="img/krystaldazzle-stack.svg" alt="krystal dazzle stack"/>
           <p>
-            Built in the PHP Laravel framework and styled with Bootstrap components, my personal blog connects to ButterCMS where I write my blog posts.
+            A Shopify-themed site I created for a skincare product line. "Krystal Dazzle" logo created in Adobe Illustrator. Images courtesy of Adobe Stock.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://blog.mconrad.io" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blog" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Wine House | Virtual Wine Cellar</h2>
-          <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
-          <img className="stack-img" src="img/wine-house-stack.svg" alt="Wine House stack"/>
-          <p>
-            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account, then edit wine bottle information and add it to a collection.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://winoapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/wine-house" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Guitar Zone API</h2>
-          <img src="img/display-guitar-zone.png" alt="Guitar Zone API"/>
-          <img className="stack-img" src="img/guitar-zone-stack.svg" alt="Guitar Zone API stack"/>
-          <p>
-            A REST API that handles inventory for an online musical instrument store. Created with Node.js, Express, PostgreSQL, and Sequelize ORM.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://github.com/mvrad/guitar-zone-api" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Tic-Tac-Toe</h2>
-          <img src="img/display-tictactoe.png" alt="Tic-Tac-Toe"/>
-          <img className="stack-img" src="img/tic-tac-toe-stack.svg" alt="Tic-Tac-Toe stack"/>
-          <p>
-            A two-person tic-tac-toe game created in "vanilla" JavaScript.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://mvrad.github.io/tic-tac-toe" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/tic-tac-toe/blob/master/js/app.js" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+            <a href="https://krystaldazzles.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
           </div>
         </div>
       </div>
@@ -94,14 +66,15 @@ const Portfolio: React.FC<portfolioProps> = () => {
       </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Krystal Dazzle Skincare</h2>
-          <img src="img/display-krystaldazzle.png" alt="Krystal Dazzle Skincare"/>
-          <img className="stack-img" src="img/krystaldazzle-stack.svg" alt="krystal dazzle stack"/>
+          <h2>Wine House | Virtual Wine Cellar</h2>
+          <img src="img/display-wino.png" alt="Wine House | Wine Cellar App"/>
+          <img className="stack-img" src="img/wine-house-stack.svg" alt="Wine House stack"/>
           <p>
-            A Shopify-themed site I created for a skincare product line. "Krystal Dazzle" logo created in Adobe Illustrator. Images courtesy of Adobe Stock.
+            Created using the Node.js framework Express, "Wine House" is a wine cellar management app that features a user authentication system created for MongoDB using Mongoose ODM that allows a user to create a secure account, then edit wine bottle information and add it to a collection.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://krystaldazzles.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://winoapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/wine-house" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
@@ -146,49 +119,17 @@ const Portfolio: React.FC<portfolioProps> = () => {
           </div>
         </div>
       </div>
-      <div className="portfolio-title">
-        <h1>In Progress</h1>
-        <p>The following are projects I'm still working on. Their functionality may be limited.</p>
-      </div>
       <div className="portfolio-sub">
         <div className="portfolio-sub_title">
-          <h2>Blot | To-Do and Notes</h2>
-          <img src="img/display-blot.png" alt="Blot | ToDo App"/>
-          <img className="stack-img" src="img/blot-stack.svg" alt="Blot stack"/>
+          <h2>Tic-Tac-Toe</h2>
+          <img src="img/display-tictactoe.png" alt="Tic-Tac-Toe"/>
+          <img className="stack-img" src="img/tic-tac-toe-stack.svg" alt="Tic-Tac-Toe stack"/>
           <p>
-            A to-do app created in the MERN framework with TypeScript featuring user authentication and Material-UI components.
+            A two-person tic-tac-toe game created in "vanilla" JavaScript.
           </p>
           <div className="portfolio-btn_wrapper">
-            <a href="https://blotapp.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/blot" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Podbay | Podcast Search</h2>
-          <img src="img/display-podbay.png" alt="Podbay | Podcast Search"/>
-          <img className="stack-img" src="img/podbay-stack.svg" alt="Podbay stack"/>
-          <p>
-            Search podcast information and get new podcast suggestions. Powered by Listen Notes API and created in React and GraphQL.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://podbay.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
-            <a href="https://github.com/mvrad/podbay" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
-          </div>
-        </div>
-      </div>
-      <div className="portfolio-sub">
-        <div className="portfolio-sub_title">
-          <h2>Thinkspace | Landing Page Design</h2>
-          <img src="img/display-thinkspace.png" alt="Thinkspace Landing Page"/>
-          <img className="stack-img" src="img/alpha-ai-stack.svg" alt="Thinkspace stack"/>
-          <p>
-            A landing page design for a fictional digital marketing agency I dubbed "Thinkspace". This project was created using Node.js, Express, and Tailwind CSS.
-          </p>
-          <div className="portfolio-btn_wrapper">
-            <a href="https://thinkspace.herokuapp.com" rel='noopener noreferrer'><button className="btn" type="button">View</button></a>
-            <a href="https://github.com/mvrad/thinkspace" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
+            <a href="https://mvrad.github.io/tic-tac-toe" rel='noopener noreferrer'><button className="btn" type="button">Visit</button></a>
+            <a href="https://github.com/mvrad/tic-tac-toe/blob/master/js/app.js" rel='noopener noreferrer'><button className="btn" type="button">GitHub</button></a>
           </div>
         </div>
       </div>
