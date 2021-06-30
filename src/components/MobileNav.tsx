@@ -6,90 +6,45 @@ export interface MobileNavProps { }
 const MobileNav: React.FC<MobileNavProps> = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const photos = [{
-    photo: "img/view_of_the_coast.jpg",
-    caption: "'View of the Coast' | Oil on Linen | 36 x 24 in.",
+    photo: "img/portrait1.jpg",
+    caption: "'Untitled Portrait no. 1' | Oil on linen | 18 in. x 24 in.",
     subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/view_of_the_coast.jpg",
+    thumbnail: "img/portrait1.jpg",
+  }, {
+    photo: "img/portrait2.jpg",
+    caption: "'Untitled Portrait no. 2' | Oil on linen | 24 in. x 30 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/portrait2.jpg",
+  }, {
+    photo: "img/woman_by_a_window.jpg",
+    caption: "'Woman By A Window' | Oil on linen | 36 in. x 24 in.",
+    subcaption: "© 2021 Matthew Conrad",
+    thumbnail: "img/woman_by_a_window.jpg",
   }, {
     photo: "img/still_life4.jpg",
-    caption: "'Still Life with Fruits and Wine' | Oil on Linen | 40 x 30 in.",
+    caption: "'Still Life with Fruits and Wine' | Oil on linen | 40 in. x 30 in.",
     subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life4.jpg",
   }, {
     photo: "img/landscape1.jpg",
-    caption: "'Storm Clouds Over Tuscany' | Acrylic on Canvas | 20 x 16 in.",
+    caption: "'Storm Clouds Over Tuscany' | Acrylic on canvas | 20 in. x 16 in.",
     subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/landscape1.jpg",
   }, {
     photo: "img/still_life3.jpg",
-    caption: "'Afternoon in Talamone' | Acrylic on Canvas | 20 x 16 in.",
+    caption: "'Afternoon in Talamone' | Acrylic on canvas | 20 in. x 16 in.",
     subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life3.jpg",
   }, {
     photo: "img/still_life2.jpg",
-    caption: "'Still Life with Book and Candle' | Acrylic on Canvas | 16 x 18 in.",
+    caption: "'Still Life with Book and Candle' | Acrylic on canvas | 16 in. x 18 in.",
     subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life2.jpg",
   }, {
     photo: "img/still_life1.jpg",
-    caption: "'Still Life with Orange and Wine Glass' | Acrylic on Canvas | 16 x 18 in.",
+    caption: "'Still Life with Orange and Wine Glass' | Acrylic on canvas | 16 in. x 18 in.",
     subcaption: "© 2021 Matthew Conrad",
     thumbnail: "img/still_life1.jpg",
-  }, {
-    photo: "img/Design/krystal-dazzle_logo.png",
-    caption: "'Krystal Dazzle Skincare Logo' | Krystal Dazzle Skincare",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/krystal-dazzle_logo.png",
-  }, {
-    photo: "img/Design/sea_moss_turmeric_mask.png",
-    caption: "'Sea Moss Turmeric Mask' | Labels for Krystal Dazzle Skincare Products",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/sea_moss_turmeric_mask.png",
-  }, {
-    photo: "img/Design/honey_turmeric_soap_large.png",
-    caption: "'Honey Turmeric Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/honey_turmeric_soap_large.png",
-  }, {
-    photo: "img/Design/rose_petal_oil_soap_large.png",
-    caption: "'Rose Petal Oil Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/rose_petal_oil_soap_large.png",
-  }, {
-    photo: "img/Design/vanilla_and_honey_soap_large.png",
-    caption: "'Vanilla and Honey Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/vanilla_and_honey_soap_large.png",
-  }, {
-    photo: "img/Design/lavender_and_goat_milk_large.png",
-    caption: "'Lavender and Goat Milk Handcrafted Soap' | Labels for Krystal Dazzle Skincare Products",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/lavender_and_goat_milk_large.png",
-  }, {
-    photo: "img/Design/gg20.jpg",
-    caption: "'GG Coat of Arms' | Grow Gang Cannabis-Inspired Apparel",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/gg20.jpg",
-  }, {
-    photo: "img/Design/gg17.jpg",
-    caption: "'Might Smoking Flower Rangers' | Grow Gang Cannabis-Inspired Apparel",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/gg17.jpg",
-  }, {
-    photo: "img/Design/gg15.jpg",
-    caption: "'Get Lifted' | Grow Gang Cannabis-Inspired Apparel",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/gg15.jpg",
-  }, {
-    photo: "img/Design/edibles_mango_front.png",
-    caption: "'Mango Flavored Gummy Edibles' | Royal Kreations Cannabis Co.",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/edibles_mango_front.png",
-  }, {
-    photo: "img/Design/edibles_strawberry_front.png",
-    caption: "'Strawberry Flavored Gummy Edibles' | Royal Kreations Cannabis Co.",
-    subcaption: "© 2021 Matthew Conrad",
-    thumbnail: "img/Design/edibles_strawberry_front.png",
   }];
   return (
     <>
@@ -125,7 +80,7 @@ const MobileNav: React.FC<MobileNavProps> = (props) => {
             <svg className="icon nav-link" viewBox="0 0 28 28">
               <path d="M25.234 0c1.422 0 2.734 1.062 2.734 2.547 0 0.828-0.328 1.625-0.703 2.359-1.219 2.312-5.313 9.953-7.266 11.75-0.953 0.891-2.078 1.422-3.406 1.422-2.641 0-4.797-2.25-4.797-4.875 0-1.25 0.516-2.469 1.437-3.313l9.969-9.047c0.547-0.5 1.266-0.844 2.031-0.844zM11.031 16.156c0.812 1.578 2.297 2.766 4.016 3.219l0.016 1.109c0.094 4.453-3 7.516-7.469 7.516-5.297 0-7.594-4.219-7.594-9.016 0.578 0.391 2.594 2 3.25 2 0.391 0 0.719-0.219 0.859-0.578 1.328-3.469 3.406-4.094 6.922-4.25z"></path>
             </svg>
-            Art/Design
+            Artwork
           </button>
         </div>
         <div className="social">
